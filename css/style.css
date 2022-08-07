@@ -2378,13 +2378,13 @@ fieldset:disabled a.btn {
 .btn-primary:hover {
   color: #fff;
   background-color: #09aa90;
-  border-color: #089e86;
+  border-color: #0D46B5;
 }
 
 .btn-primary:focus, .btn-primary.focus {
   color: #fff;
   background-color: #09aa90;
-  border-color: #089e86;
+  border-color: #0D46B5;
   box-shadow: 0 0 0 0.2rem rgba(48, 213, 187, 0.5);
 }
 
@@ -2397,7 +2397,7 @@ fieldset:disabled a.btn {
 .btn-primary:not(:disabled):not(.disabled):active, .btn-primary:not(:disabled):not(.disabled).active,
 .show > .btn-primary.dropdown-toggle {
   color: #fff;
-  background-color: #089e86;
+  background-color: #0D46B5;
   border-color: #08917c;
 }
 
@@ -2666,14 +2666,14 @@ fieldset:disabled a.btn {
 }
 
 .btn-outline-primary {
-  color: #0BCEAF;
-  border-color: #0BCEAF;
+  color: #0D46B5;
+  border-color: #0D46B5;
 }
 
 .btn-outline-primary:hover {
   color: #fff;
-  background-color: #0BCEAF;
-  border-color: #0BCEAF;
+  background-color: #0D46B5;
+  border-color: #0D46B5;
 }
 
 .btn-outline-primary:focus, .btn-outline-primary.focus {
@@ -2681,15 +2681,15 @@ fieldset:disabled a.btn {
 }
 
 .btn-outline-primary.disabled, .btn-outline-primary:disabled {
-  color: #0BCEAF;
+  color: #0D46B5;
   background-color: transparent;
 }
 
 .btn-outline-primary:not(:disabled):not(.disabled):active, .btn-outline-primary:not(:disabled):not(.disabled).active,
 .show > .btn-outline-primary.dropdown-toggle {
   color: #fff;
-  background-color: #0BCEAF;
-  border-color: #0BCEAF;
+  background-color: #0D46B5;
+  border-color: #0D46B5;
 }
 
 .btn-outline-primary:not(:disabled):not(.disabled):active:focus, .btn-outline-primary:not(:disabled):not(.disabled).active:focus,
@@ -4863,7 +4863,7 @@ a.badge:hover, a.badge:focus {
 
 a.badge-primary:hover, a.badge-primary:focus {
   color: #fff;
-  background-color: #089e86;
+  background-color: #0D46B5;
 }
 
 a.badge-primary:focus, a.badge-primary.focus {
@@ -6355,13 +6355,13 @@ a.close.disabled {
 }
 
 .bg-primary {
-  background-color: #0BCEAF !important;
+  background-color: #0D46B5 !important;
 }
 
 a.bg-primary:hover, a.bg-primary:focus,
 button.bg-primary:hover,
 button.bg-primary:focus {
-  background-color: #089e86 !important;
+  background-color: #0D46B5 !important;
 }
 
 .bg-secondary {
@@ -9525,7 +9525,7 @@ button.bg-dark:focus {
 }
 
 .text-primary {
-  color: #0BCEAF !important;
+  color: #0D46B5 !important;
 }
 
 a.text-primary:hover, a.text-primary:focus {
@@ -9739,7 +9739,7 @@ h6,
 }
 
 .text-stroke-header {
-  -webkit-text-stroke: 3px #ffffff;
+  -webkit-text-stroke: 1px #0D46B5;
   color: transparent;
 }
 
