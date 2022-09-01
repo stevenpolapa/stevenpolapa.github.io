@@ -1,0 +1,1041 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>K7 - Personal Portfolio</title>
+
+<!----
+- Favicon
+---->
+  <link rel="shortcut icon" href="./assets/images/my-avatar.png" type="image/x-icon">
+
+<!----
+- Custom CSS Link
+---->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+<!----
+- Google Font Link 
+---->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+<!----
+- #Main
+---->
+
+  <main>
+
+<!----
+- #Sidebar
+---->
+
+    <aside class="sidebar" data-sidebar>
+      <div class="sidebar-info">
+        <figure class="avatar-box">
+          <img src="./assets/images/my-avatar.png" alt="Steven Polapa" width="80">
+        </figure>
+        <div class="info-content">
+          <h1 class="name" title="Steven Polapa">Steven Polapa</h1>
+          <p class="title">User Interface Designer</p>
+        </div>
+        <button class="info_more-btn" data-sidebar-btn>
+          <span>Show Contacts</span>
+          <ion-icon name="chevron-down"></ion-icon>
+        </button>
+      </div>
+      <div class="sidebar-info_more">
+        <div class="separator"></div>
+        <ul class="contacts-list">
+          <li class="contact-item">
+            <div class="icon-box">
+              <ion-icon name="mail-outline"></ion-icon>
+            </div>
+            <div class="contact-info">
+              <p class="contact-title">Email</p>
+              <a href="mailto:stevenpolapa@ti.poligon.ac.id" class="contact-link">stevenpolapa@ti.poligon.ac.id</a>
+            </div>
+          </li>
+          <li class="contact-item">
+            <div class="icon-box">
+              <ion-icon name="phone-portrait-outline"></ion-icon>
+            </div>
+            <div class="contact-info">
+              <p class="contact-title">Phone</p>
+              <a href="https://t.me/stevenpolapa" class="contact-link">+62 813 4004 2424</a>
+            </div>
+          </li>
+
+          <li class="contact-item">
+            <div class="icon-box">
+              <ion-icon name="calendar-outline"></ion-icon>
+            </div>
+            <div class="contact-info">
+              <p class="contact-title">Birthday</p>
+              <time datetime="1982-06-23">19 September 1984</time>
+            </div>
+          </li>
+
+          <li class="contact-item">
+            <div class="icon-box">
+              <ion-icon name="location-outline"></ion-icon>
+            </div>
+            <div class="contact-info">
+              <p class="contact-title">Location</p>
+              <address>Gorontalo, Indonesia</address>
+            </div>
+          </li>
+        </ul>
+
+        <div class="separator"></div>
+        <ul class="social-list">
+
+          <li class="social-item">
+            <a target="_blank" href="https://www.linkedin.com/in/stevenpolapa/" class="social-link">
+              <ion-icon name="logo-linkedin"></ion-icon>
+            </a>
+          </li>
+          <li class="social-item">
+            <a target="_blank" href="https://twitter.com/stevenpolapa" class="social-link">
+              <ion-icon name="logo-twitter"></ion-icon>
+            </a>
+          </li>
+          <li class="social-item">
+            <a target="_blank" href="https://instagram.com/stevenpolapa" class="social-link">
+              <ion-icon name="logo-dribbble"></ion-icon>
+            </a>
+          </li>
+          <li class="social-item">
+            <a target="_blank" href="https://www.behance.net/stevenpolapa/moodboards" class="social-link">
+              <ion-icon name="logo-behance"></ion-icon>
+            </a>
+          </li>
+          <li class="social-item">
+            <a target="_blank" href="https://github.com/stevenpolapa" class="social-link">
+              <ion-icon name="logo-github"></ion-icon>
+            </a>
+          </li>
+          <li class="social-item">
+            <a target="_blank" href="https://id.pinterest.com/stevenpolapa77/" class="social-link">
+              <ion-icon name="logo-pinterest"></ion-icon>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </aside>
+    
+<!----
+- #Main-Content
+---->
+
+    <div class="main-content">
+
+<!----
+- #Navbar
+---->
+
+      <nav class="navbar">
+        <ul class="navbar-list">
+
+          <li class="navbar-item">
+            <button class="navbar-link  active" data-nav-link>About</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Resume</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Portfolio</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Blog</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Contact</button>
+          </li>
+        </ul>
+      </nav>
+
+<!----
+        - #About
+---->
+
+      <article class="about  active" data-page="about">
+        <header>
+          <h2 class="h2 article-title">About me</h2>
+        </header>
+
+        <section class="about-text">
+          <h3>
+            Hi, I'm Steven Polapa. Based in Indonesia. 
+          </h3>
+          </br>
+          <p>
+            On the journey of curiosity with 5-7 years of experience.
+            Based in Indonesia. User interface designer and product design.
+          </p>
+
+          <p>I really enjoy designing for government and community targeted brands,
+            especially within the food, sport, game, news and music industries,
+            but I am open to taking on a wide variety of projects as I love to learn and grow.
+          </p>
+        </section>
+
+        <section class="service">
+          <h3 class="h3 service-title">What i'm doing</h3>
+          <ul class="service-list">
+            
+            <li class="service-item">
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-dev.svg" alt="Web development icon" width="40">
+              </div>
+              <div class="service-content-box">
+                <h5 class="h5 service-item-title">Web & UI Design</h5>
+                <p class="service-item-text">
+                  Develop website & user interface design with Flutter or Wordpress
+                </p>
+              </div>
+            </li>
+
+            <li class="service-item">
+              <div class="service-icon-box">
+                <img src="./assets/images/copywriting.svg" alt="camera icon" width="40">
+              </div>
+              <div class="service-content-box">
+                <h5 class="h5 service-item-title">Copywriting</h5>
+                <p class="service-item-text">
+                  Content writing, UX writing, social media marketing 
+                </p>
+              </div>
+            </li>
+
+            <li class="service-item">
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-design.svg " alt="design icon" width="40">
+              </div>
+              <div class="service-content-box">
+                <h5 class="h5 service-item-title">Brand Design</h5>
+                <p class="service-item-text">
+                  Product design, Brand identity, Logo design, Social media content design.
+                </p>
+              </div>
+            </li>
+
+            <li class="service-item">
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-photo.svg" alt="camera icon" width="40">
+              </div>
+              <div class="service-content-box">
+                <h5 class="h5 service-item-title">Photography</h5>
+                <p class="service-item-text">
+                  I make high-quality photos of any category at a professional level.
+                </p>
+              </div>
+            </li>
+
+          </ul>
+        </section>
+
+<!----
+- #Testimonial
+---->
+
+        <section class="testimonials">
+          <h3 class="h3 testimonials-title">Testimonials</h3>
+          <ul class="testimonials-list has-scrollbar">
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+                <figure class="testimonials-avatar-box">
+                  <img src="./assets/images/avatar-1.png" alt="Daniel lewis" width="60" data-testimonials-avatar>
+                </figure>
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>Daniel lewis</h4>
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    Richard was hired to create a corporate identity. We were very pleased with the work done. She has a
+                    lot of experience
+                    and is very concerned about the needs of client. Lorem ipsum dolor sit amet, ullamcous cididt
+                    consectetur adipiscing
+                  </p>
+                  <p></p>
+                </div>
+              </div>
+            </li>
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+                <figure class="testimonials-avatar-box">
+                  <img src="./assets/images/avatar-2.png" alt="Jessica miller" width="60" data-testimonials-avatar>
+                </figure>
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>Jessica miller</h4>
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    Richard was hired to create a corporate identity. We were very pleased with the work done. She has a
+                    lot of experience
+                    and is very concerned about the needs of client. Lorem ipsum dolor sit amet, ullamcous cididt
+                    consectetur adipiscing
+                    elit, seds do et eiusmod tempor incididunt ut laborels dolore magnarels alia.
+                  </p>
+                </div>
+              </div>
+            </li>
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+                <figure class="testimonials-avatar-box">
+                  <img src="./assets/images/avatar-3.png" alt="Emily evans" width="60" data-testimonials-avatar>
+                </figure>
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>Emily evans</h4>
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    Richard was hired to create a corporate identity. We were very pleased with the work done. She has a
+                    lot of experience
+                    and is very concerned about the needs of client. Lorem ipsum dolor sit amet, ullamcous cididt
+                    consectetur adipiscing
+                    elit, seds do et eiusmod tempor incididunt ut laborels dolore magnarels alia.
+                  </p>
+                </div>
+              </div>
+            </li>
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+                <figure class="testimonials-avatar-box">
+                  <img src="./assets/images/avatar-4.png" alt="Henry william" width="60" data-testimonials-avatar>
+                </figure>
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>Henry william</h4>
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    Richard was hired to create a corporate identity. We were very pleased with the work done. She has a
+                    lot of experience
+                    and is very concerned about the needs of client. Lorem ipsum dolor sit amet, ullamcous cididt
+                    consectetur adipiscing
+                    elit, seds do et ei/wp-content/uploads/2022/08/PSX_20220814_204729-e1660481593712.jpgusmod tempor incididunt ut laborels dolore magnarels alia.
+                  </p>
+                </div>
+              </div>
+            </li>
+          </ul>
+        </section>
+
+
+<!----
+- Testimonial-Modal
+---->
+
+        <div class="modal-container" data-modal-container>
+
+          <div class="overlay" data-overlay></div>
+          <section class="testimonials-modal">
+            <button class="modal-close-btn" data-modal-close-btn>
+              <ion-icon name="close-outline"></ion-icon>
+            </button>
+            <div class="modal-img-wrapper">
+              <figure class="modal-avatar-box">
+                <img src="./assets/images/avatar-1.png" alt="Daniel lewis" width="80" data-modal-img>
+              </figure>
+              <img src="./assets/images/icon-quote.svg" alt="quote icon">
+            </div>
+
+            <div class="modal-content">
+              <h4 class="h3 modal-title" data-modal-title>Daniel lewis</h4>
+              <time datetime="2021-06-14">14 June, 2021</time>
+              <div data-modal-text>
+                <p>
+                  Richard was hired to create a corporate identity. We were very pleased with the work done. She has a
+                  lot of experience
+                  and is very concerned about the needs of client. Lorem ipsum dolor sit amet, ullamcous cididt
+                  consectetur adipiscing
+                  elit, seds do et eiusmod tempor incididunt ut laborels dolore magnarels alia.
+                </p>
+              </div>
+            </div>
+          </section>
+        </div>
+
+<!----
+- Clients
+---->
+
+        <div>
+          <header>
+            <h2 class="h2 article-title"></h2>
+          </header>
+        </div>
+
+        <section class="clients">
+          <h3 class="h3 clients-title">Clients</h3>
+          <ul class="clients-list has-scrollbar">
+            
+              <li class="clients-item">
+              <a target="_blank" href="#">
+                <img src="./assets/images/logo-1-color.png" alt="Telkomsel">
+              </a>
+            </li>
+      
+            <li class="clients-item">
+              <a target="_blank" href="#">
+                <img src="./assets/images/logo-2-color.png" alt="ITT Telkom Surabaya">
+              </a>
+            </li>
+      
+            <li class="clients-item">
+              <a target="_blank" href="#">
+                <img src="./assets/images/logo-3-color.png" alt="ERHA Dermatology">
+              </a>
+            </li>
+      
+            <li class="clients-item">
+              <a target="_blank" href="#">
+                <img src="./assets/images/logo-4-color.png" alt="Relawan TIK">
+              </a>
+            </li>
+      
+            <li class="clients-item">
+              <a target="_blank" href="#">
+                <img src="./assets/images/logo-5-color.png" alt="Kedai Kopi Kulo">
+              </a>
+            </li>
+      
+            <li class="clients-item">
+              <a target="_blank" href="#">
+                <img src="./assets/images/logo-6-color.png" alt="MR Diy">
+              </a>
+            </li>
+      
+          </ul>
+      
+        </section>
+
+<!----
+- Skills
+---->
+        
+          <div>
+            <header>
+              <h2 class="h2 article-title"></h2>
+            </header>
+          </div>
+          <section class="skill">
+
+          <h3 class="h3 skills-title">My SKill</h3>
+          <ul class="skills-list content-card">
+            
+            <li class="skills-item">
+              <div class="title-wrapper">
+                <h5 class="h5">Web & App Design</h5>
+                <data value="88">88%</data>
+              </div>
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 88%;"></div>
+              </div>
+            </li>
+
+            <li class="skills-item">
+              <div class="title-wrapper">
+                <h5 class="h5">Graphic Design</h5>
+                <data value="92">92%</data>
+              </div>
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 92%;"></div>
+              </div>
+            </li>
+
+            <li class="skills-item">
+              <div class="title-wrapper">
+                <h5 class="h5">WordPress</h5>
+                <data value="93">93%</data>
+              </div>
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 93%;"></div>
+              </div>
+            </li>
+
+            <li class="skills-item">
+              <div class="title-wrapper">
+                <h5 class="h5">HTML & CSS</h5>
+                <data value="79">79%</data>
+              </div>
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 79%;"></div>
+              </div>
+              <li class="skills-item">
+                <div class="title-wrapper">
+                  <h5 class="h5">Java Script</h5>
+                  <data value="72">72%</data>
+                </div>
+                <div class="skill-progress-bg">
+                  <div class="skill-progress-fill" style="width: 72%;"></div>
+                </div>
+              </li>
+            </li>
+          </ul>
+
+<!----
+- Interest
+---->
+
+        <div>
+          <header>
+          <h2 class="h2 article-title"></h2>
+          </header>
+          </div>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="heart-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Interest</h3>
+          </div>
+            <ul class="service-list">
+              
+              <li class="service-item">
+                <div class="service-icon-box">
+                  <img src="./assets/images/icon-book.svg
+                  "alt="design icon" width="46">
+                </div>
+                <div class="service-content-box">
+                  <h4 class="h4 service-item-title">Book</h4>
+                  <p class="service-item-text">
+                    Koleksi buku banyak yang novel
+                  </p>
+                </div>
+              </li>
+
+              <li class="service-item">
+                <div class="service-icon-box">
+                  <img src="./assets/images/icon-camera.svg
+                  " alt="design icon" width="46">
+                </div>
+                <div class="service-content-box">
+                  <h4 class="h4 service-item-title">Photography</h4>
+                  <p class="service-item-text">
+                    Lebih sering menggunakan HP
+                  </p>
+                </div>
+              </li>
+
+              <li class="service-item">
+                <div class="service-icon-box">
+                  <img src="./assets/images/icon-coffee.svg
+                  " alt="design icon" width="46">
+                </div>
+                <div class="service-content-box">
+                  <h4 class="h4 service-item-title">Coffee</h4>
+                  <p class="service-item-text">
+                    Caffucino, CaffeLatte, Mocca
+                  </p>
+                </div>
+  
+              </li>
+              <li class="service-item">
+                <div class="service-icon-box">
+                  <img src="./assets/images/icon-game.svg
+                  " alt="design icon" width="46">
+                </div>
+                <div class="service-content-box">
+                  <h4 class="h4 service-item-title">Game</h4>
+                  <p class="service-item-text">
+                    FIFA Mobile, FUT & e-Football
+                  </p>
+                </div>
+              </li>
+
+              <li class="service-item">
+                <div class="service-icon-box">
+                  <img src="./assets/images/icon-movie.svg
+                  " alt="design icon" width="46">
+                </div>
+                <div class="service-content-box">
+                  <h4 class="h4 service-item-title">Movie</h4>
+                  <p class="service-item-text">
+                    Sci-Fi, Documentary, Action
+                  </p>
+                </div>
+              </li>
+
+              <li class="service-item">
+                <div class="service-icon-box">
+                  <img src="./assets/images/icon-music.svg
+                  " alt="design icon" width="46">
+                </div>
+                <div class="service-content-box">
+                  <h4 class="h4 service-item-title">Music</h4>
+                  <p class="service-item-text">
+                    Pop Punk, Punk Rock
+                  </p>
+                </div>
+              </li>
+            </ul>
+          </section>
+        </section>
+      </article>
+    </section>
+
+
+<!----
+- #Resume
+---->
+
+      <article class="resume" data-page="resume">
+
+        <header>
+          <h2 class="h2 article-title">Resume</h2>
+        </header>
+
+        <header>
+            <h2 class="h2 article-title">Experience & Education</h2>
+        </header>
+
+        <section class="timeline">
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+            <h3 class="h3">Experience</h3>
+          </div>
+
+          <ol class="timeline-list">
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">Pegawai Negeri Sipil</h4>
+              <span>Pemerintah Kabupaten Gorontalo</span>
+              <span>2010 — sekarang</span>
+              <p class="timeline-text">
+                Saya memutuskan untuk berhenti bekerja sebagai wartawan setelah menjadi Pegawai Negeri Sipil. Awalnya sebagai tenaga pendidik dari tahun 2010 hingga 2015, kemudian pindah instansi ke Dinas Komunikasi dan Informatika Kabupaten Gorontalo sebagai pengelola Website & Media Sosial pemerintahan sampai dengan sekarang.
+              </p>
+            </li>
+
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">Pengelola Konten Media Sosial</h4>
+              <span>Pemerintah Kota Gorontalo</span>
+              <span>2021 — sekarang</span>
+
+              <p class="timeline-text">
+                - Membuat desain konten untuk media sosial</br>
+                - Melakukan penelitian terkait dengan publik & pemerintah sebagai konten media sosial</br>
+                - Menjadwalkan, memposting, dan menulis keterangan konten untuk media sosial</br>
+            </li>
+
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">Freelance UI & Product Designer</h4>
+              <span>2016 — Present</span>
+              <p class="timeline-text">
+                Selain bekerja sebagai PNS, saya juga seorang freelancer sampai sekarang. Beberapa pekerjaan yang saya lakukan adalah web desain, desain grafis, pengeditan video dan juga desainer konten dan branding media sosial.
+              </p>
+            </li>
+
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">Wartawan TV</h4>
+              <span>Indosiar Visual Mandiri</span>
+              <span>2008 — 2010</span>
+              <p class="timeline-text">
+                Sebelum menjadi jurnalis televisi, saya awalnya adalah jurnalis di media lokal. Menjadi jurnalis televisi saat itu merupakan tantangan tersendiri bagi saya, karena sebelumnya saya tidak memiliki pengalaman di dunia penyiaran televisi.</br>
+                - Berkoordinasi dengan koordinator peliputan</br>
+                - Melakukan peliputan di wilayah yang ditetapkan (Gorontalo)</br>
+                - Mengedit video dan membuat naskah berita liputan</br>
+                - Mengirimkan video dan naskah berita melalui internet</br>
+            </li>
+          </ol>
+        </section>
+
+        <section class="timeline">
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+            <h3 class="h3">Formal Education</h3>
+          </div>
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">STMIK Ichsan Gorontalo</h4>
+              <span>2003</span>
+              <p class="timeline-text">
+                Sistem Informasi (tidak selesai)
+              </p>
+            </li>
+
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">Universitas Negeri Gorontalo</h4>
+              <span>2006</span>
+              <p class="timeline-text">
+                Pendidikan Keguruan (tidak selesai)
+              </p>
+              <span>2008</span>
+              <p class="timeline-text">
+                Manajemen Pendidikan (tidak selesai)
+              </p>
+            </li>
+          </ol>
+        </section>
+
+<!----
+- #Education
+---->
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+            <h3 class="h3">Non Formal Education</h3>
+          </div>
+          <ol class="timeline-list">
+          <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">BPPTIK Kementerian Kominfo</h4>
+              <span>2015</span>
+            </li>
+          
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">BEKRAF Developer Day 2019</h4>
+              <span>2019</span>
+            </li>
+
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">Digitalent Kominfo</h4>
+              <span>2021</span>
+            </li>
+
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">IDCamp Indosat Ooredoo Hutchison</h4>
+              <span>2022</span>
+            </li>
+          </ul>
+        </section>
+      </article>
+
+<!----
+- #Portfolio
+---->
+
+      <article class="portfolio" data-page="portfolio">
+        <header>
+          <h2 class="h2 article-title">Portfolio</h2>
+        </header>
+        <section class="projects">
+          <ul class="filter-list">
+            
+            <li class="filter-item">
+              <button class="active" data-filter-btn>All</button>
+            </li>
+            <li class="filter-item">
+              <button data-filter-btn>Web design</button>
+            </li>
+            <li class="filter-item">
+              <button data-filter-btn>Applications</button>
+            </li>
+            <li class="filter-item">
+              <button data-filter-btn>Web development</button>
+            </li>
+            <li class="filter-item">
+              <button data-filter-btn>Graphic Design</button>
+            </li>
+          </ul>
+
+          <div class="filter-select-box">
+            <button class="filter-select" data-select>
+              <div class="select-value" data-selecct-value>Select category</div>
+              <div class="select-icon">
+                <ion-icon name="chevron-down"></ion-icon>
+              </div>
+            </button>
+
+            <ul class="select-list">
+              <li class="select-item">
+                <button data-select-item>All</button>
+              </li>
+              <li class="select-item">
+                <button data-select-item>Web design</button>
+              </li>
+              <li class="select-item">
+                <button data-select-item>Applications</button>
+              </li>
+              <li class="select-item">
+                <button data-select-item>Web development</button>
+              </li>
+              <li class="select-item">
+                <button data-select-item>Graphic Design</button>
+              </li>
+            </ul>
+          </div>
+
+          <ul class="project-list">
+            
+            <li class="project-item  active" data-filter-item data-category="graphic design">
+              <a target="_blank" href="https://www.behance.net/gallery/150546811/Fridy-Real-Estate">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+                  <img src="./assets/images/project-1.jpg" alt="finance" loading="lazy">
+                </figure>
+                <h3 class="project-title">Fridy Real Estate</h3>
+                <p class="project-category">Brand Identity</p>
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="graphic design">
+              <a target="_blank" href="https://www.behance.net/gallery/150434715/ListKaffee-Branding-Identity">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+                  <img src="./assets/images/project-2.png" alt="orizon" loading="lazy">
+                </figure>
+                <h3 class="project-title">List Kaffee Brand Identity</h3>
+                <p class="project-category">Brand Identity</p>
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="graphic design">
+              <a target="_blank" href="#">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+                  <img src="./assets/images/project-3.jpg" alt="fundo" loading="lazy">
+                </figure>
+                <h3 class="project-title">Name Card</h3>
+                <p class="project-category">Graphic Design</p>
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="graphic design">
+              <a target="_blank" href="#">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+                  <img src="./assets/images/project-4.png" alt="brawlhalla" loading="lazy">
+                </figure>
+                <h3 class="project-title">Qerja Online Logo Identity</h3>
+                <p class="project-category">Logo Design</p>
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="graphic design">
+              <a href="https://www.behance.net/gallery/150466003/Sintia-Patisserie-Branding-Identity">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+                  <img src="./assets/images/project-5.png" alt="dsm." loading="lazy">
+                </figure>
+                <h3 class="project-title">Sintia Patisserie Brand Identity</h3>
+                <p class="project-category">Brand Identity</p>
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="web design">
+              <a target="_blank" href="#">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+                  <img src="./assets/images/project-6.png" alt="metaspark" loading="lazy">
+                </figure>
+                <h3 class="project-title">MetaSpark</h3>
+                <p class="project-category">Web design</p>
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="web development">
+              <a target="_blank" href="#">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+                  <img src="./assets/images/project-7.png" alt="summary" loading="lazy">
+                </figure>
+                <h3 class="project-title">Summary</h3>
+                <p class="project-category">Web development</p>
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="applications">
+              <a target="_blank" href="#">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+                  <img src="./assets/images/project-8.jpg" alt="task manager" loading="lazy">
+                </figure>
+                <h3 class="project-title">Task Manager</h3>
+                <p class="project-category">Applications</p>
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="web development">
+              <a target="_blank" href="#">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+                  <img src="./assets/images/project-9.png" alt="arrival" loading="lazy">
+                </figure>
+                <h3 class="project-title">Arrival</h3>
+                <p class="project-category">Web development</p>
+              </a>
+            </li>
+          </ul>
+        </section>
+      </article>
+
+<!----
+- #BLOG
+---->
+
+      <article class="blog" data-page="blog">
+
+        <header>
+          <h2 class="h2 article-title">Blog</h2>
+        </header>
+
+        <section class="blog-posts">
+          <ul class="blog-posts-list">
+            
+            <li class="blog-post-item">
+              <a target="_blank" href="https://www.uefa.tv/video/vod/387612/">
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/champions-league-draw.jpeg" alt="UEFA Champions League Group Stage Draw" loading="lazy">
+                </figure>
+                <div class="blog-content">
+                <div class="blog-meta">
+                <p class="blog-category">Injury Time</p>
+                <span class="dot"></span>
+                <time datetime="2022-02-23">Ags 25, 2022</time>
+                </div>
+                <h3 class="h3 blog-item-title">UEFA Champions League Group Stage Draw</h3>
+                <p class="blog-text">
+                  Watch the full draw for this season's UEFA Champions League group stage.
+                </p>
+                </div>
+              </a>
+            </li>
+            
+            <li class="blog-post-item">
+              <a target="_blank" href="#">
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/group-c-UCL-2022-2023.webp" alt="The Treble Trouble" loading="lazy">
+                </figure>
+                <div class="blog-content">
+                <div class="blog-meta">
+                <p class="blog-category">Injury Time</p>
+                <span class="dot"></span>
+                <time datetime="2022-02-23">Ags 25, 2022</time>
+                </div>
+                <h3 class="h3 blog-item-title">Bayern Munchen, Barcelona & Inter: "The Treble Trouble"</h3>
+                <p class="blog-text">
+                  Grup C UEFA Champions League 2022/2023 merupakan para peraih Treble Winners, Barcelona, Bayern Munchen & Internazionale Milano.
+                </p>
+                </div>
+              </a>
+            </li>
+            
+            <li class="blog-post-item">
+              <a target="_blank" href="./champions-league/Berapa Harga Tiket Match UEFA Champions League d1ef2bee3a774fb58da642d6a2bb66fc.html">
+                <figure class="blog-banner-box">
+                  <img src="https://basingbe.com/wp-content/uploads/2021/05/champions-league-940x529-1.jpg" alt="Berapa Harga Tiket Match UEFA Champions League?" loading="lazy">
+                </figure>
+                <div class="blog-content">
+                <div class="blog-meta">
+                <p class="blog-category">Football</p>
+                <span class="dot"></span>
+                <time datetime="2022-02-23">31 Agustus 2022</time>
+                </div>
+                <h3 class="h3 blog-item-title">Berapa Harga Tiket Match UEFA Champions League?</h3>
+                <p class="blog-text">
+                  Tulisan ini bermula, seusai pengundian grup UEFA Champions League 2022/2023.
+                </p>
+                </div>
+              </a>
+            </li>
+            
+            <li class="blog-post-item">
+              <a target="_blank" href="#">
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/blog-1.jpg" alt="Design conferences in 2022" loading="lazy">
+                </figure>
+                <div class="blog-content">
+                <div class="blog-meta">
+                <p class="blog-category">Design</p>
+                <span class="dot"></span>
+                <time datetime="2022-02-23">Fab 23, 2022</time>
+                </div>
+                <h3 class="h3 blog-item-title">Design conferences in 2022</h3>
+                <p class="blog-text">
+                  Veritatis et quasi architecto beatae vitae dicta sunt, explicabo.
+                </p>
+                </div>
+              </a>
+            </li>
+
+          </ul>
+        </section>
+      </article>
+
+
+<!----
+- #CONTACT
+---->
+
+      <article class="contact" data-page="contact">
+
+        <header>
+          <h2 class="h2 article-title">Kolaborasi 😉</h2>
+        </header>
+
+        <section class="mapbox" data-mapbox>
+          <figure>
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d127667.39288392966!2d122.95824143609642!3d0.5910586084045096!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x32792b3d2f1520b5%3A0xc2c29ab17eb155fb!2sGorontalo%20Unite!5e0!3m2!1sid!2sid!4v1659956156107!5m2!1sid!2sid"
+              width="400" height="300" loading="lazy"></iframe>
+          </figure>
+        </section>
+
+        <section class="contact-form">
+          <h4 class="h4 form-title">Sampaikan pesan Anda disini</h4>
+          <form action="#" class="form" data-form>
+            <div class="input-wrapper">
+              <input type="text" name="fullname" class="form-input" placeholder="Nama Lengkap" required data-form-input>
+              <input type="email" name="email" class="form-input" placeholder="Alamat e-mail" required data-form-input>
+            </div>
+
+            <textarea name="message" class="form-input" placeholder="Pesan Anda" required data-form-input></textarea>
+            <button class="form-btn" type="submit" disabled data-form-btn>
+              <ion-icon name="paper-plane"></ion-icon>
+              <span>Kirim Pesan</span>
+            </button>
+          </form>
+        </section>
+      </article>
+    </div>
+  </main>
+
+<!----
+- #CUSTOM JS LINK
+---->
+  <script src="./assets/js/script.js"></script>
+
+<!----
+- #IONICON LINK
+---->
+
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+</html>
